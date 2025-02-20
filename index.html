@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Peluang Binomial</title>
+</head>
+<body>
+    <header>
+        <div><h1>Kalkulator Peluang Binomial</h1></div>
+        <div><h3>Buat Kelas 12 yang malas ngitung</h3></div>
+    </header>
+    
+    <form action="" name="form-kalkulator">
+        <div class="input-n">
+            <input type="number" class="isian" placeholder="Berapa kali percobaan?" id="input-n" >
+        </div>
+        <div class="input-x">
+            <input type="number" class="isian" placeholder="Berapa banyak kesuksesan yang diharapkan?" id="input-x">
+        </div>
+        <div class="input-p">
+            <input type="number" class="isian" placeholder="Berapa peluang percobaan sukses?" id="input-p">
+        </div>
+        <div class="input-q">
+            <input type="number" class="isian" placeholder="Berapa peluang percobaan gagal?" id="input-q">
+        </div>
+        <div class="hitung">
+            <button onclick="peluang()" id="hitung"> Hitung</button>
+        </div>
+
+    </form>
+    <div class="hasil"><h2 id="hasil">Hasil</h2></div>
+    
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
