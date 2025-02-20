@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    background-color: 	#c6d3e3;
+    color: 	#304674;
+}
+form{
+    margin: 5% 5% 5% 5%;
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 40px;
+    border: 0;
+    box-shadow: 0px 0px 20px rgb(141, 141, 141);
+}
+::placeholder{
+    color: #f8f8f8;
+}
+.isian{
+    background-color: #304674;
+    color: white;
+    margin: 2% 0 2% 0;
+    width: 600px;
+    height: 30px;
+    border-radius: 40px;
+}
+#hitung{
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(241, 217, 0);
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+}
+
+@media (max-width: 450px) {
+    .isian{
+        background-color: #304674;
+        color: white;
+        margin: 2% 0 2% 0;
+        width: 80%;
+        height: 10%px;
+        border-radius: 40px;
+    }
+}
